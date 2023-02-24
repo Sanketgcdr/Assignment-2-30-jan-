@@ -4,7 +4,8 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPjzizBzRGBs49TytwCFaIT",
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyObNuTzi8fzw4Z0IgAKQFNk",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -52,7 +53,7 @@
         "id": "Mj9_1tbM9_fu",
         "outputId": "20bd48c6-31d3-419c-caec-aedd54918450"
       },
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -87,7 +88,7 @@
         "id": "U5enCT1G9_1E",
         "outputId": "bc9bdf60-e227-4be9-cd1b-cae49ffad155"
       },
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -100,6 +101,13 @@
           "execution_count": 2
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "EtWaOElQC9DV"
+      }
     },
     {
       "cell_type": "markdown",
@@ -127,7 +135,7 @@
         "id": "N8x9c1tT-ARo",
         "outputId": "e2e26ec5-4628-48eb-ae61-75b4f18fe467"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -166,7 +174,7 @@
         "id": "7B51pjNh-AsS",
         "outputId": "66678605-19a1-42cd-9016-96eb3f55cff1"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -205,7 +213,7 @@
         "id": "WgZQB3ON-Bpk",
         "outputId": "4a96f331-f07f-4095-80fb-84e8fe6251cd"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -233,7 +241,7 @@
     {
       "cell_type": "code",
       "source": [
-        "l1 = [\"php\", \"w3r\", \"Python\", \"abcd\", \"Java\", \"aaa\"]\n",
+        "l1 = ['python', 'php', 'aba', 'radar', 'level']\n",
         "print(\"Orginal list of strings:\", l1)\n",
         "result = list(filter(lambda x: (x == \"\".join(reversed(x))), l1)) \n",
         "print(\"\\nList of palindromes:\")\n",
@@ -244,18 +252,18 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "TmKE10MW9-hG",
-        "outputId": "e407c3b4-e7e3-4372-c7c1-eb87798acb99"
+        "outputId": "686a3684-3252-4307-8a0e-cefc6d1baab0"
       },
-      "execution_count": 6,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Orginal list of strings: ['php', 'w3r', 'Python', 'abcd', 'Java', 'aaa']\n",
+            "Orginal list of strings: ['python', 'php', 'aba', 'radar', 'level']\n",
             "\n",
             "List of palindromes:\n",
-            "['php', 'aaa']\n"
+            "['php', 'aba', 'radar', 'level']\n"
           ]
         }
       ]
